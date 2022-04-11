@@ -123,8 +123,27 @@ hr {
 
 .bg-endpage {
     background-color: #7FFFD4;
+    padding: 1rem 0;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ft-logo, .ft-button {
+    min-width: 50px;
+    background-color: #FFB6C1;
+    padding: 0.3rem;
+    border: 1px dashed black;
+    text-align: center;
 }
 
 .ft-logo {
-    min-width: 50px;
+    float: left;
+}
+
+.ft-button {
+    float: right;
 }
