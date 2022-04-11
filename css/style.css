@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ADD8E6;
+}
+
+header .container {
+    padding: 0.6rem 0;
+}
+
+hr {
+    color: white;
+    margin: 2rem 0;
+}
+
+.section {
+    padding: 3rem 1rem;
+
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo, .link, .login {
+    background-color: #DAA520;
+    border: 1px dashed black;
+    padding: 0.3rem;
+    min-width: 100px;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.link {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.login {
+    text-align: right;
+}
+
+.bg-jumbotron {
+    background-color: #00008B;
+}
+
+.jumbotron-content {
+    background-color: #EE82EE;
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.col {
+    border: 1px dashed black;
+}
+
+.large-col {
+    background-color: #1E90FF;
+    flex-grow: 2;
+    min-width: 200px;
+    min-height: 300px;
+}
+
+.small-col {
+    background-color: #FFC0CB;
+    flex-grow: 1;
+    min-width: 100px;
+    min-height: 300px;
+}
+
+.bg-grey {
+    background-color: #D3D3D3;
+}
+
+.big-content {
+    background-color: #228B22;
+    border: 1px dashed black;
+    min-height: 500px;
+}
+
+.bg-footer {
+    background-color: #23272A;
+}
+
+.ft-col {
+    min-height: 400px;
+}
+
+.ft-col.left-col {
+    background-color: #F08080;
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+
+.ft-col.right-col {
+    background-color: #20B2AA;
+    flex-grow: 3;
+    border: 1px dashed black;
+}
+
+.in-col {
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+
+.bg-endpage {
+    background-color: #7FFFD4;
+}
+
+.ft-logo {
+    min-width: 50px;
+}
